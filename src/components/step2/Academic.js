@@ -14,7 +14,7 @@ export default function Academic() {
                             <select className='bg-white w-100 agent-select formgray-text'>
                                 <option>Select</option>
                                 <option>Graduate student</option>
-                                <option>undergraduate student</option>
+                                <option>Undergraduate student</option>
                             </select>
                         </div>
                     </div>
