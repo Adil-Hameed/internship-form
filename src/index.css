@@ -702,6 +702,10 @@ input[type="checkbox"]:checked {
 }
 
 .agent-select {
-  border: none;
-  outline: none;
+  border: none !important;
+  outline: none !important;
+}
+
+.agent-select > option {
+  width:100%;
 }

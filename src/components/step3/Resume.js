@@ -8,7 +8,7 @@ export default function Resume() {
                 <div className="row w-80 mx-auto text-white">
                     <div className="mx-auto col-lg-10 col-12  px-0 formgray-text text-center">
                         <h3 className='fs-33 fw-bold text-center mb-3 dark-blue-text'>
-                            Internship program you are interested in:<span style={{ color: "#2CAAE6" }}> *</span>
+                            Internship program you are interested in:
                         </h3>
                         <div className='rounded p-2 mt-3 mb-5 w-100 credit-card-input '>
                             <select className='bg-white w-100 agent-select formgray-text'>
@@ -30,9 +30,9 @@ export default function Resume() {
                     </div>
                     <div className="mx-auto col-lg-10 col-12  px-0 formgray-text text-center">
                         <h3 className='fs-22 fw-bold text-center mb-3 dark-blue-text'>
-                            Provide a brief description on why do you want to join the program? <span style={{ color: "#2CAAE6" }}> *</span>
+                            Provide a brief description on why do you want to join the program?
                         </h3>
-                        <textarea rows="4" type="text" placeholder='Actually....' className="rounded p-2 mt-3 mb-5  w-100 credit-card-input formgray-text"></textarea>
+                        <textarea rows="4" type="text" placeholder='E.g. I am eager to join the program as it offers a chance to develop essential skills, collaborate with talented peers, and make a positive impact in my chosen field.' className="rounded p-2 mt-3 mb-5  w-100 credit-card-input formgray-text"></textarea>
                     </div>
                 </div>
 
