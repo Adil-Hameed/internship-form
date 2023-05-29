@@ -700,3 +700,8 @@ input[type="checkbox"]:checked {
 #upload {
   border: 1px dashed #7F7F7F;
 }
+
+.agent-select {
+  border: none;
+  outline: none;
+}

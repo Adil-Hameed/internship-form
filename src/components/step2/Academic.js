@@ -10,34 +10,34 @@ export default function Academic() {
                         <h3 className='fs-33 fw-bold text-center mb-3 dark-blue-text'>
                             Are you a Graduate or an undergraduate student?
                         </h3>
-                        <select id='graduate' className='rounded p-2 mt-3 mb-5 w-100 credit-card-input formgray-text'>
-                            <option>Graduate student</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                        </select>
+                        <div className='rounded p-2 mt-3 mb-5 w-100 credit-card-input '>
+                            <select className='bg-white w-100 agent-select formgray-text'>
+                                <option>Select</option>
+                                <option>Graduate student</option>
+                                <option>undergraduate student</option>
+                            </select>
+                        </div>
                     </div>
                     <div className="mx-auto col-lg-10 col-12  px-0 formgray-text text-center">
                         <h3 className='fs-33 fw-bold text-center mb-3 dark-blue-text'>
                             Name of School/University/College
                         </h3>
-                        <select id='college' className='rounded p-2 mt-3 mb-5 w-100 credit-card-input formgray-text'>
-                            <option>University of Los Angles</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                        </select>
+                        <input type='text' id="" className='rounded p-2 my-3 w-100 credit-card-input dark-blue-text' />
                     </div>
                     <div className="mx-auto col-lg-10 col-12  px-0 formgray-text text-center">
                         <h3 className='fs-33 fw-bold text-center mb-3 dark-blue-text'>
                             Degree (Seeking or obtained)
                         </h3>
-                        <select id='college' className='rounded p-2 mt-3 mb-5 w-100 credit-card-input formgray-text'>
-                            <option>Masters</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                        </select>
+                        <div className='rounded p-2 mt-3 mb-5 w-100 credit-card-input '>
+                            <select className='bg-white w-100 agent-select formgray-text'>
+                                <option>Select</option>
+                                <option>Bachelor's Degree</option>
+                                <option>Master's Degree</option>
+                                <option>Associate's Degree</option>
+                                <option>Doctorate Degree</option>
+                                <option>Professional Certification</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
                 <div className='text-center pb-5'>
@@ -54,6 +54,5 @@ export default function Academic() {
                 </div>
             </div>
         </div>
-
     )
 }
